@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const List = styled.div`
+export const Wrapper = styled.div`
   max-width: 1200px;
   margin: 50px auto;
   padding: 0 20px;
@@ -10,8 +10,9 @@ export const List = styled.div`
   grid-gap: 50px;
 `;
 
-export const Item = styled.div`
+export const Item = styled.button`
   background-color: grey;
+  border: none;
   display: flex;
   justify-content: center;
   align-items: center;

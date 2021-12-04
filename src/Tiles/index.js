@@ -1,17 +1,17 @@
 import { tilesData } from "./tilesData"
-import { Content, Item, List } from "./styled"
+import { Wrapper, Item, Content } from "./styled"
 
 export const Tiles = () => {
   return (
-    <List>
+    <Wrapper>
       {tilesData.map(element => (
         <Item
-        key={element.id}
-        background={element.background}
+          background={element.background}
+          key={element.id}
         >
           <Content>{element.content}</Content>
         </Item>
       ))}
-    </List>
+    </Wrapper>
   )
 }
