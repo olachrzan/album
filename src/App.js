@@ -1,4 +1,5 @@
 import { Header } from "./Header";
+import { Modal } from "./Modal";
 import { Tiles } from "./Tiles";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header />
       <Tiles />
+      <Modal />
     </>
   );
 }
