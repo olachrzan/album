@@ -1,7 +1,12 @@
+import { Header } from "./Header";
+import { Tiles } from "./Tiles";
 
 function App() {
   return (
-    <div></div>
+    <>
+      <Header />
+      <Tiles />
+    </>
   );
 }
 
