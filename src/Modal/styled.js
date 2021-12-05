@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import image from "./images/photo.jpg";
+import image from "./images/photo1.jpg";
 
 export const Background = styled.div`
   display: none;
