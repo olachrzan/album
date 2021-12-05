@@ -1,12 +1,12 @@
 import { Background, Content, ExitCross, ImageSide, TextSide, Header } from "./styled";
 
 export const Modal = ({ showModal, setShowModal }) => {
-  const OnButtonClick = () => setShowModal((prev) => !prev);
+  const onButtonClick = () => setShowModal(false);
 
   return (
     <Background show={showModal} >
       <Content>
-        <ExitCross onClick={OnButtonClick}>
+        <ExitCross onClick={onButtonClick}>
           X
         </ExitCross>
         <ImageSide />
