@@ -1,7 +1,8 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import image from "./images/photo.jpg";
 
-export const ModalBackground = styled.div`
+export const Background = styled.div`
+  display: none;
   padding: 0 20px;
   position: fixed;
   left: 0;
@@ -9,9 +10,13 @@ export const ModalBackground = styled.div`
   width: 100%;
   height: 100%;
   background-color: rgb(0, 0, 0, 0.6);
+
+  ${({ show }) => show && css`
+    display: block;
+  `}
 `;
 
-export const ModalContent = styled.div`
+export const Content = styled.div`
   margin: 70px auto;
   padding: 0;
   max-width: 900px;
@@ -21,6 +26,20 @@ export const ModalContent = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+`;
+
+export const ExitCross = styled.button`
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  border: none;
+  color: gray;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
 `;
 
 export const ImageSide = styled.div`
