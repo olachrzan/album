@@ -1,4 +1,4 @@
-import { data } from "../Tiles/data";
+import { data } from "../data";
 import { Background, Content, ExitCross, ImageSide, TextSide, Header } from "./styled";
 
 export const Modal = ({ selectedTile, setSelectedTile }) => {

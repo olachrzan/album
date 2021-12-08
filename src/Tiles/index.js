@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { data } from "./data"
 import { Wrapper, Item, Content } from "./styled";
-import { Modal } from "../Modal";
+import { Modal } from "./Modal";
 
 export const Tiles = () => {
   const [selectedTile, setSelectedTile] = useState("");
