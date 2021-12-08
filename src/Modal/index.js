@@ -1,19 +1,19 @@
+import { data } from "../Tiles/data";
 import { Background, Content, ExitCross, ImageSide, TextSide, Header } from "./styled";
 
-export const Modal = ({ showModal, setShowModal }) => {
-  const onButtonClick = () => setShowModal(false);
+export const Modal = ({ selectedTile, setSelectedTile }) => {
 
   return (
-    <Background show={showModal} >
+    <Background show={selectedTile === "" ? false : true} >
       <Content>
-        <ExitCross onClick={onButtonClick}>
+        <ExitCross onClick={() => setSelectedTile("")}>
           X
         </ExitCross>
         <ImageSide />
         <TextSide>
-          <Header>Tytuł</Header>
+          <Header>{selectedTile === "" ? "" : data[selectedTile].details.title}</Header>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.
+            {selectedTile === "" ? "" : data[selectedTile].details.content}
           </p>
         </TextSide>
       </Content>
