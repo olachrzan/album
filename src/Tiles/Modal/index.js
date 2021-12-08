@@ -9,9 +9,13 @@ export const Modal = ({ selectedTile, setSelectedTile }) => {
         <ExitCross onClick={() => setSelectedTile("")}>
           X
         </ExitCross>
-        <ImageSide />
+        <ImageSide
+          img={selectedTile === "" ? "" : process.env.PUBLIC_URL + data[selectedTile].details.photo}
+        />
         <TextSide>
-          <Header>{selectedTile === "" ? "" : data[selectedTile].details.title}</Header>
+          <Header>
+            {selectedTile === "" ? "" : data[selectedTile].details.title}
+          </Header>
           <p>
             {selectedTile === "" ? "" : data[selectedTile].details.content}
           </p>

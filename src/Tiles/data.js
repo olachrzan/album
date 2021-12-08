@@ -6,7 +6,7 @@ export const data = [
     details: {
       title: "Pierwszy tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: ".images/photo1.jpg",
+      photo: "/images/photo1.jpg",
     },
   },
   {
@@ -16,7 +16,7 @@ export const data = [
     details: {
       title: "Drugi tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: ".images/photo2.jpg",
+      photo: "/images/photo2.jpg",
     },
   },
   {
@@ -26,7 +26,7 @@ export const data = [
     details: {
       title: "Trzeci tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: ".images/photo3.jpg",
+      photo: "/images/photo3.jpg",
     },
   },
   {
@@ -36,7 +36,7 @@ export const data = [
     details: {
       title: "Czwarty tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: ".images/photo4.jpg",
+      photo: "/images/photo4.jpg",
     },
   },
   {
@@ -46,7 +46,7 @@ export const data = [
     details: {
       title: "Piąty tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: ".images/photo5.jpg",
+      photo: "/images/photo5.jpg",
     },
   },
   {
@@ -56,7 +56,7 @@ export const data = [
     details: {
       title: "Szósty tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: ".images/photo6.jpg",
+      photo: "/images/photo6.jpg",
     },
   },
   {
@@ -66,7 +66,7 @@ export const data = [
     details: {
       title: "Siódmy tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: ".images/photo7.jpg",
+      photo: "/images/photo7.jpg",
     },
   },
   {
@@ -76,7 +76,7 @@ export const data = [
     details: {
       title: "Ósmy tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: ".images/photo8.jpg",
+      photo: "/images/photo8.jpg",
     },
   },
   {
@@ -86,7 +86,7 @@ export const data = [
     details: {
       title: "Dziewiąty tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: ".images/photo9.jpg",
+      photo: "/images/photo9.jpg",
     },
   },
 ]

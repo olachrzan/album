@@ -1,5 +1,4 @@
 import styled, { css } from "styled-components";
-import image from "./images/photo1.jpg";
 
 export const Background = styled.div`
   display: none;
@@ -44,7 +43,7 @@ export const ExitCross = styled.button`
 
 export const ImageSide = styled.div`
   height: 100%;
-  background-image: url("${image}");
+  background-image: ${props => `url(${props.img})`};
   flex: 1 0 600px;
   background-position: 50% 70%;
   background-size: cover;
