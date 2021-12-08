@@ -1,4 +1,4 @@
-import { tilesData } from "./tilesData"
+import { data } from "./data"
 import { Wrapper, Item, Content } from "./styled"
 
 export const Tiles = ({ setShowModal }) => {
@@ -8,12 +8,12 @@ export const Tiles = ({ setShowModal }) => {
 
   return (
     <Wrapper>
-      {tilesData.map(element => (
+      {data.map(element => (
         <Item
           onClick={onButtonClick}
           key={element.id}
         >
-          <Content>{element.content}</Content>
+          <Content>{element.name}</Content>
         </Item>
       ))}
     </Wrapper>
