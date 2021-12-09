@@ -1,5 +1,6 @@
 import { data } from "../data";
-import { Background, Content, ExitCross, ImageSide, TextSide, Header } from "./styled";
+import { Background, Content, ExitCross, TextSide, Header } from "./styled";
+import { Slider } from "./Slider";
 
 export const Modal = ({ selectedTile, setSelectedTile }) => {
   if (!selectedTile) {
@@ -13,9 +14,7 @@ export const Modal = ({ selectedTile, setSelectedTile }) => {
         <ExitCross onClick={() => setSelectedTile(null)}>
           X
         </ExitCross>
-        <ImageSide
-          img={process.env.PUBLIC_URL + elementDetails.photo}
-        />
+        <Slider elementDetails={elementDetails} />
         <TextSide>
           <Header>
             {elementDetails.title}

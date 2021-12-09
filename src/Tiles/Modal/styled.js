@@ -37,18 +37,10 @@ export const ExitCross = styled.button`
   cursor: pointer;
 `;
 
-export const ImageSide = styled.div`
-  height: 100%;
-  background-image: ${props => `url(${props.img})`};
-  flex: 1 0 600px;
-  background-position: 50% 70%;
-  background-size: cover;
-`;
-
 export const TextSide = styled.div`
   margin: 0;
   padding: 30px;
-  flex: 2 1 300px;
+  flex: 2 1 400px;
 `;
 
 export const Header = styled.h2`
