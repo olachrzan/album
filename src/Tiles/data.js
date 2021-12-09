@@ -6,7 +6,7 @@ export const data = [
     details: {
       title: "Pierwszy tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: "/images/photo1.jpg",
+      photos: ["/images/photo1.jpg", "/images/photo2.jpg", "/images/photo3.jpg"],
     },
   },
   {
@@ -16,7 +16,7 @@ export const data = [
     details: {
       title: "Drugi tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: "/images/photo2.jpg",
+      photos: ["/images/photo4.jpg", "/images/photo5.jpg", "/images/photo6.jpg"],
     },
   },
   {
@@ -26,7 +26,7 @@ export const data = [
     details: {
       title: "Trzeci tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: "/images/photo3.jpg",
+      photos: ["/images/photo1.jpg", "/images/photo7.jpg", "/images/photo8.jpg"],
     },
   },
   {
@@ -36,7 +36,7 @@ export const data = [
     details: {
       title: "Czwarty tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: "/images/photo4.jpg",
+      photos: ["/images/photo7.jpg", "/images/photo3.jpg", "/images/photo1.jpg"],
     },
   },
   {
@@ -46,7 +46,7 @@ export const data = [
     details: {
       title: "Piąty tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: "/images/photo5.jpg",
+      photos: ["/images/photo8.jpg", "/images/photo9.jpg", "/images/photo5.jpg"],
     },
   },
   {
@@ -56,7 +56,7 @@ export const data = [
     details: {
       title: "Szósty tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: "/images/photo6.jpg",
+      photos: ["/images/photo2.jpg", "/images/photo5.jpg", "/images/photo4.jpg"],
     },
   },
   {
@@ -66,7 +66,7 @@ export const data = [
     details: {
       title: "Siódmy tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: "/images/photo7.jpg",
+      photos: ["/images/photo7.jpg", "/images/photo5.jpg", "/images/photo6.jpg"],
     },
   },
   {
@@ -76,7 +76,7 @@ export const data = [
     details: {
       title: "Ósmy tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: "/images/photo8.jpg",
+      photos: ["/images/photo1.jpg", "/images/photo9.jpg", "/images/photo8.jpg"],
     },
   },
   {
@@ -86,7 +86,7 @@ export const data = [
     details: {
       title: "Dziewiąty tytuł",
       content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Non, aliquam, odit, nisi obcaecati vero libero aperiam suscipit neque cupiditate culpa illo debitis doloremque?Cum doloribus nostrum unde voluptates ducimus dolores.",
-      photo: "/images/photo9.jpg",
+      photos: ["/images/photo7.jpg", "/images/photo3.jpg"],
     },
   },
 ]
