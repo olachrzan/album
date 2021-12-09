@@ -1,7 +1,6 @@
 export const data = [
   {
     id: 1,
-    background: "ala",
     name: "Pierwszy kafelek",
     details: {
       title: "Pierwszy tytuł",
@@ -11,7 +10,6 @@ export const data = [
   },
   {
     id: 2,
-    background: "ola",
     name: "Drugi kafelek",
     details: {
       title: "Drugi tytuł",
@@ -21,7 +19,6 @@ export const data = [
   },
   {
     id: 3,
-    background: "ela",
     name: "Trzeci kafelek",
     details: {
       title: "Trzeci tytuł",
@@ -31,7 +28,6 @@ export const data = [
   },
   {
     id: 4,
-    background: "ala",
     name: "Czwarty kafelek",
     details: {
       title: "Czwarty tytuł",
@@ -41,7 +37,6 @@ export const data = [
   },
   {
     id: 5,
-    background: "ola",
     name: "Piąty kafelek",
     details: {
       title: "Piąty tytuł",
@@ -51,7 +46,6 @@ export const data = [
   },
   {
     id: 6,
-    background: "ela",
     name: "Szósty kafelek",
     details: {
       title: "Szósty tytuł",
@@ -61,7 +55,6 @@ export const data = [
   },
   {
     id: 7,
-    background: "ala",
     name: "Siódmy kafelek",
     details: {
       title: "Siódmy tytuł",
@@ -71,7 +64,6 @@ export const data = [
   },
   {
     id: 8,
-    background: "ola",
     name: "Ósmy kafelek",
     details: {
       title: "Ósmy tytuł",
@@ -81,7 +73,6 @@ export const data = [
   },
   {
     id: 9,
-    background: "ela",
     name: "Dziewiąty kafelek",
     details: {
       title: "Dziewiąty tytuł",
