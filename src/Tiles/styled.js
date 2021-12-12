@@ -12,20 +12,39 @@ export const Item = styled.button`
   border-radius: 15px;
   border: none;
   box-shadow: 3px 3px 3px #a2aae7;;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   cursor: pointer;
+  position: relative;
+  z-index: 1;
 `;
 
 export const Icon = styled.img`
   margin: 10px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin:auto;
+  transition: top .2s linear;
+
+  ${Item}:hover & {
+    top: -40px;
+  }
 `;
 
 export const Content = styled.p`
-  color: #515151;
+padding: 0 10px;
+  position: absolute;
+  top: 55%;
+  right: 0;
+  left: 0;
+  color: transparent;
   font-weight: 500;
+  transition: color .2s linear;
+
+  ${Item}:hover & {
+    color: #414141;
+  }
 `;
 
 export const Footer = styled.footer`
