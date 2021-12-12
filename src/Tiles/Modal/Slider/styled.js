@@ -2,8 +2,8 @@ import Carousel from 'nuka-carousel';
 import styled from "styled-components";
 
 export const CarouselWrapper = styled(Carousel)`
-  margin: 0 15px;
-  padding: 15px 0;
+  margin: 0 20px;
+  padding: 20px 0;
 `;
 
 export const Item = styled.div`

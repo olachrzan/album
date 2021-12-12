@@ -1,5 +1,5 @@
 import { data } from "../data";
-import { Background, Content, ExitCross, TextSide, Header } from "./styled";
+import { Background, Content, ExitCross, TextSide, Header, LeftTop, RightTop } from "./styled";
 import { Slider } from "./Slider";
 
 export const Modal = ({ selectedTile, setSelectedTile }) => {
@@ -12,7 +12,8 @@ export const Modal = ({ selectedTile, setSelectedTile }) => {
     <Background>
       <Content>
         <ExitCross onClick={() => setSelectedTile(null)}>
-          X
+          <LeftTop/>
+          <RightTop/>
         </ExitCross>
         <Slider elementDetails={elementDetails} />
         <TextSide>

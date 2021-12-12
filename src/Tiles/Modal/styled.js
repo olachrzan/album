@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Background = styled.div`
-  display: block;
   padding: 0 20px;
   position: fixed;
   left: 0;
@@ -17,24 +16,53 @@ export const Content = styled.div`
   max-width: 900px;
   height: 600px;
   background-color: white;
-  box-shadow: 0px 0px 19px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
 `;
 
-export const ExitCross = styled.button`
+export const ExitCross = styled.div`
   position: absolute;
-  top: 0;
-  right: 0;
-  padding: 15px;
-  border: none;
-  color: gray;
-  background-color: transparent;
-  font-weight: 700;
-  font-size: 20px;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
+`;
+
+export const LeftTop = styled.div`
+  height: 3px;
+  width: 30px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: grey;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  transition: all .2s ease-in;
+
+  ${ExitCross}:hover & {
+    transform: rotate(-45deg);
+    background-color: #373737;
+  }
+`;
+
+export const RightTop = styled.div`
+  height: 3px;
+  width: 30px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: grey;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  transition: all .2s ease-in;
+
+  ${ExitCross}:hover & {
+    transform: rotate(45deg);
+    background-color: #373737;
+  }
 `;
 
 export const TextSide = styled.div`

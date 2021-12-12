@@ -14,7 +14,7 @@ const defaultControlsConfig = {
     backgroundColor: "rgb(0, 0, 0, 0.5)",
   },
   pagingDotsStyle: {
-    fill: "black",
+    fill: "#4c42b0",
   }
 };
 
