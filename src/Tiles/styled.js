@@ -8,9 +8,10 @@ export const Wrapper = styled.div`
 
 export const Item = styled.button`
   height: 200px;
-  background-color: #d9deff;
+  background-color: #bec6ff;
   border-radius: 15px;
   border: none;
+  box-shadow: 3px 3px 5px -1px #7F85B3;;
   display: flex;
   justify-content: center;
   align-items: center;
