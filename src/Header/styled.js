@@ -9,4 +9,5 @@ export const Wrapper = styled.div`
 export const MainHeader = styled.h1`
   text-align: center;
   color: #515151;
+  line-height: 100%;
 `;

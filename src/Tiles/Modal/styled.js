@@ -5,15 +5,16 @@ export const Background = styled.div`
   position: fixed;
   left: 0;
   top: 0;
+  z-index: 2;
   width: 100%;
   height: 100%;
   background-color: rgb(0, 0, 0, 0.2);
-  z-index: 2;
+  display: flex;
 `;
 
 export const Content = styled.div`
-  margin: 70px auto;
-  padding: 0;
+  margin: auto;
+  padding: 0 20px;
   max-width: 900px;
   height: 600px;
   background-color: #e9e8fe;
@@ -23,6 +24,11 @@ export const Content = styled.div`
   justify-content: space-between;
   align-items: center;
   position: relative;
+  overflow: auto;
+
+  @media (max-width: 920px) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const ExitCross = styled.div`
