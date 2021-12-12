@@ -21,12 +21,12 @@ You can find the demo <a href="https://olachrzan.github.io/album/">here</a>
 ## Technologies
 - HTML, CSS, JS (ES6+)
 - Grid, Flexbox
+- Media queries
 - React
 - Styled Components
 - nuka-carousel (ReactJS Carousel Component)
 
 ## Want to add:
-- media queries
 - adding other tiles
 - adding and deleting photos to sliders
 
