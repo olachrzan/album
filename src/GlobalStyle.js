@@ -15,6 +15,6 @@ export const GlobalStyle = createGlobalStyle`
     line-height: 130%;
     letter-spacing: 1px;
     background-color: #e9e8fe;
-    padding: 0 30px;
+    padding: 0 20px;
   }
 `;
