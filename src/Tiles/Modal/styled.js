@@ -16,7 +16,7 @@ export const Content = styled.div`
   padding: 0;
   max-width: 900px;
   height: 600px;
-  background-color: white;
+  background-color: #e9e8fe;
   border-radius: 15px;
   box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -39,14 +39,14 @@ export const LeftTop = styled.div`
   width: 30px;
   position: absolute;
   margin-top: 24px;
-  background-color: grey;
+  background-color: #9990fa;
   border-radius: 2px;
   transform: rotate(45deg);
   transition: all .2s ease-in;
 
   ${ExitCross}:hover & {
     transform: rotate(-45deg);
-    background-color: #373737;
+    filter: brightness(85%);
   }
 `;
 
@@ -55,14 +55,14 @@ export const RightTop = styled.div`
   width: 30px;
   position: absolute;
   margin-top: 24px;
-  background-color: grey;
+  background-color: #9990fa;
   border-radius: 2px;
   transform: rotate(-45deg);
   transition: all .2s ease-in;
 
   ${ExitCross}:hover & {
     transform: rotate(45deg);
-    background-color: #373737;
+    filter: brightness(85%);
   }
 `;
 
@@ -77,4 +77,8 @@ export const Header = styled.h2`
   text-align: center;
   text-transform: uppercase;
   font-weight: 600;
+`;
+
+export const Description = styled.p`
+  color: #414141;
 `;

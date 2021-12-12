@@ -6,12 +6,12 @@ const defaultControlsConfig = {
   prevButtonStyle: {
     fontWeight: "bold",
     fontSize: "20px",
-    backgroundColor: "rgb(0, 0, 0, 0.5)",
+    backgroundColor: "rgb(153, 144, 250, 0.7)",
   },
   nextButtonStyle: {
     fontWeight: "bold",
     fontSize: "20px",
-    backgroundColor: "rgb(0, 0, 0, 0.5)",
+    backgroundColor: "rgb(153, 144, 250, 0.7)",
   },
   pagingDotsStyle: {
     fill: "#4c42b0",

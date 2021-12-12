@@ -1,5 +1,5 @@
 import { data } from "../data";
-import { Background, Content, ExitCross, TextSide, Header, LeftTop, RightTop } from "./styled";
+import { Background, Content, ExitCross, TextSide, Header, LeftTop, RightTop, Description } from "./styled";
 import { Slider } from "./Slider";
 
 export const Modal = ({ selectedTile, setSelectedTile }) => {
@@ -20,9 +20,9 @@ export const Modal = ({ selectedTile, setSelectedTile }) => {
           <Header>
             {elementDetails.title}
           </Header>
-          <p>
+          <Description>
             {elementDetails.content}
-          </p>
+          </Description>
         </TextSide>
       </Content>
     </Background>
