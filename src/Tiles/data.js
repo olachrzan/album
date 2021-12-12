@@ -1,6 +1,7 @@
 export const data = [
   {
     id: 1,
+    icon: "https://img.icons8.com/ios/50/000000/date.png",
     name: "Pierwszy kafelek",
     details: {
       title: "Pierwszy tytuł",
@@ -10,6 +11,7 @@ export const data = [
   },
   {
     id: 2,
+    icon: "https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/000000/external-rock-event-vitaliy-gorbachev-lineal-vitaly-gorbachev.png",
     name: "Drugi kafelek",
     details: {
       title: "Drugi tytuł",
@@ -19,6 +21,7 @@ export const data = [
   },
   {
     id: 3,
+    icon: "https://img.icons8.com/ios/50/000000/soup-plate.png",
     name: "Trzeci kafelek",
     details: {
       title: "Trzeci tytuł",
@@ -28,6 +31,7 @@ export const data = [
   },
   {
     id: 4,
+    icon: "https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-beach-vacations-flatart-icons-outline-flatarticons.png",
     name: "Czwarty kafelek",
     details: {
       title: "Czwarty tytuł",
@@ -37,6 +41,7 @@ export const data = [
   },
   {
     id: 5,
+    icon: "https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/000000/external-forest-landscape-vitaliy-gorbachev-lineal-vitaly-gorbachev-1.png",
     name: "Piąty kafelek",
     details: {
       title: "Piąty tytuł",
@@ -46,6 +51,7 @@ export const data = [
   },
   {
     id: 6,
+    icon: "https://img.icons8.com/ios/50/000000/mountain.png",
     name: "Szósty kafelek",
     details: {
       title: "Szósty tytuł",
@@ -55,6 +61,7 @@ export const data = [
   },
   {
     id: 7,
+    icon: "https://img.icons8.com/ios/50/000000/party-baloons.png",
     name: "Siódmy kafelek",
     details: {
       title: "Siódmy tytuł",
@@ -64,6 +71,7 @@ export const data = [
   },
   {
     id: 8,
+    icon: "https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/000000/external-snowman-christmas-vitaliy-gorbachev-lineal-vitaly-gorbachev.png",
     name: "Ósmy kafelek",
     details: {
       title: "Ósmy tytuł",
@@ -73,6 +81,7 @@ export const data = [
   },
   {
     id: 9,
+    icon: "https://img.icons8.com/ios/50/000000/family.png",
     name: "Dziewiąty kafelek",
     details: {
       title: "Dziewiąty tytuł",
