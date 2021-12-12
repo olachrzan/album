@@ -16,7 +16,7 @@ It's a website with a grid of tiles that are categories of photos. When you clic
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Demo
-You can find the demo <a href="https://olachrzan.github.io/album/" target="_blank">here</a>
+You can find the demo <a href="https://olachrzan.github.io/album/">here</a>
 
 ## Technologies
 - HTML, CSS, JS (ES6+)
@@ -26,7 +26,6 @@ You can find the demo <a href="https://olachrzan.github.io/album/" target="_blan
 - nuka-carousel (ReactJS Carousel Component)
 
 ## Want to add:
-- styles, of course
 - media queries
 - adding other tiles
 - adding and deleting photos to sliders
