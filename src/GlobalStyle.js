@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Raleway', sans-serif;
     line-height: 130%;
     letter-spacing: 1px;
-    background-color: #e9e8fe;
+    background-color: ${({ theme }) => theme.colors.titanWhite};
     padding: 0 20px;
   }
 `;

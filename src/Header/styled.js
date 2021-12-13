@@ -8,6 +8,6 @@ export const Wrapper = styled.div`
 
 export const MainHeader = styled.h1`
   text-align: center;
-  color: #515151;
+  color: ${({ theme }) => theme.colors.tundora};
   line-height: 100%;
 `;

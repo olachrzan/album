@@ -8,7 +8,7 @@ export const Background = styled.div`
   z-index: 2;
   width: 100%;
   height: 100%;
-  background-color: rgb(0, 0, 0, 0.2);
+  background-color: ${({ theme }) => theme.colors.almostBlack};
   display: flex;
 `;
 
@@ -17,16 +17,16 @@ export const Content = styled.div`
   padding: 0 20px;
   max-width: 900px;
   height: 600px;
-  background-color: #e9e8fe;
+  background-color: ${({ theme }) => theme.colors.titanWhite};
   border-radius: 15px;
-  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 14px ${({ theme }) => theme.colors.almostBlack};
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
   overflow: auto;
 
-  @media (max-width: 920px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.large}) {
     flex-wrap: wrap;
   }
 `;
@@ -45,7 +45,7 @@ export const LeftTop = styled.div`
   width: 30px;
   position: absolute;
   margin-top: 24px;
-  background-color: #9990fa;
+  background-color: ${({ theme }) => theme.colors.portage};
   border-radius: 2px;
   transform: rotate(45deg);
   transition: all .2s ease-in;
@@ -61,7 +61,7 @@ export const RightTop = styled.div`
   width: 30px;
   position: absolute;
   margin-top: 24px;
-  background-color: #9990fa;
+  background-color: ${({ theme }) => theme.colors.portage};
   border-radius: 2px;
   transform: rotate(-45deg);
   transition: all .2s ease-in;
@@ -86,5 +86,5 @@ export const Header = styled.h2`
 `;
 
 export const Description = styled.p`
-  color: #414141;
+  color: ${({ theme }) => theme.colors.tundora};
 `;
