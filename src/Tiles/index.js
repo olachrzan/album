@@ -20,7 +20,9 @@ export const Tiles = () => {
       <Footer>
         <Line />
         <Text>
-          Wszystkie ikony pochodzą ze strony <Link href="https://icons8.com/">Icons8</Link><br />
+          Wszystkie ikony pochodzą ze strony {""}
+          <Link href="https://icons8.com/" target="_blank" rel="noopener noreferrer">Icons8</Link>
+          <br />
           © 2021 Copyright - All Rights Reserved
         </Text>
       </Footer>
