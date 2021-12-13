@@ -19,6 +19,7 @@ export const CarouselWrapper = styled(Carousel)`
 export const Item = styled.div`
   height: 550px;
   background-image: ${props => `url(${props.imageUrl})`};
-  background-position: 50% 70%;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 `;
