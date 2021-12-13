@@ -34,6 +34,7 @@ export const Icon = styled.img`
   bottom: 0;
   margin:auto;
   transition: top .2s linear;
+  height: 50px;
 
   ${Item}:hover & {
     top: -40px;

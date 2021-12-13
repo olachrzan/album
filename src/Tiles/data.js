@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    icon: "https://img.icons8.com/ios/50/000000/date.png",
+    icon: "https://img.icons8.com/ios/50/000000/trail--v2.png",
     name: "Pierwszy kafelek",
     details: {
       title: "Pierwszy tytuł",
@@ -31,7 +31,7 @@ export const data = [
   },
   {
     id: 4,
-    icon: "https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-beach-vacations-flatart-icons-outline-flatarticons.png",
+    icon: "https://img.icons8.com/ios/60/000000/beach.png",
     name: "Czwarty kafelek",
     details: {
       title: "Czwarty tytuł",
@@ -51,7 +51,7 @@ export const data = [
   },
   {
     id: 6,
-    icon: "https://img.icons8.com/ios/50/000000/mountain.png",
+    icon: "https://img.icons8.com/ios/50/000000/esc.png",
     name: "Szósty kafelek",
     details: {
       title: "Szósty tytuł",
