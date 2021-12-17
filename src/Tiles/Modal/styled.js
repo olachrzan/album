@@ -31,7 +31,9 @@ export const Content = styled.div`
   }
 `;
 
-export const ExitCross = styled.div`
+export const ExitCross = styled.button`
+  background-color: transparent;
+  border: none;
   position: absolute;
   top: 5px;
   right: 5px;
@@ -40,35 +42,26 @@ export const ExitCross = styled.div`
   cursor: pointer;
 `;
 
-export const LeftTop = styled.div`
+export const LeftTop = styled.span`
   height: 3px;
   width: 30px;
   position: absolute;
-  margin-top: 24px;
   background-color: ${({ theme }) => theme.colors.portage};
   border-radius: 2px;
-  transform: rotate(45deg);
+  transform: translate(-50%) rotate(45deg);
   transition: all .2s ease-in;
 
   ${ExitCross}:hover & {
-    transform: rotate(-45deg);
     filter: brightness(85%);
+    transform: translate(-50%) rotate(-45deg);
   }
 `;
 
-export const RightTop = styled.div`
-  height: 3px;
-  width: 30px;
-  position: absolute;
-  margin-top: 24px;
-  background-color: ${({ theme }) => theme.colors.portage};
-  border-radius: 2px;
-  transform: rotate(-45deg);
-  transition: all .2s ease-in;
+export const RightTop = styled(LeftTop)`
+  transform: translate(-50%) rotate(-45deg);
 
   ${ExitCross}:hover & {
-    transform: rotate(45deg);
-    filter: brightness(85%);
+    transform: translate(-50%) rotate(45deg);
   }
 `;
 
